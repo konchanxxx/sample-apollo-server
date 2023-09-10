@@ -1,7 +1,7 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import { readFileSync } from 'fs';
-import { MoviesAPI } from './datasources/movie';
+import { MoviesAPI } from './datasources/movie.js';
 
 const typeDefs = readFileSync('./schema.graphql', 'utf-8');
 
