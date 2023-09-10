@@ -22,6 +22,7 @@
   "homepage": "https://github.com/konchanxxx/sample-apollo-server#readme",
   "type": "module",
   "dependencies": {
+    "@apollo/datasource-rest": "^6.1.0",
     "@apollo/server": "^4.9.3",
     "graphql": "^16.8.0"
   },
